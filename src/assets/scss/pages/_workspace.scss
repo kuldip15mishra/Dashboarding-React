@@ -1,0 +1,41 @@
+.er-toolbar
+{
+    padding:12px 20px;
+    background: $pale-grey-dark;
+    height: 50px;
+    .er-formats{
+        float: left;
+
+        select{
+            border:0px;
+            background: none;
+        }
+        input[type="color"]
+        {
+            min-height: 25px;
+            padding: 0px;
+            border: 0px;
+            background: transparent;
+            width: 21px;
+            outline: 0px;
+            margin-left: 5px;
+        }
+        button{
+            background: none;
+            border:0px;
+            svg{
+                height: 14px;
+                width: 14px;
+            }
+        }
+        .er-separator{
+            margin-left: 20px;
+            width: 1px;
+            margin-top: 2px;
+            opacity: .5;
+            background: #979797;
+            height: 20px;
+            margin-right: 20px;
+        }
+    }
+}

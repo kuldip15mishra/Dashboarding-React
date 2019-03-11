@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ddriven";
+  src:url("icons/ddriven/fonts/ddriven.eot");
+  src:url("icons/ddriven/fonts/ddriven.eot?#iefix") format("embedded-opentype"),
+    url("icons/ddriven/fonts/ddriven.woff") format("woff"),
+    url("icons/ddriven/fonts/ddriven.ttf") format("truetype"),
+    url("icons/ddriven/fonts/ddriven.svg#ddriven") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ddriven" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="dd-"]:before,
+[class*=" dd-"]:before {
+  font-family: "ddriven" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dd-details:before {
+  content: "\61";
+}
+.dd-info:before {
+  content: "\62";
+}
+.dd-triangle-down:before {
+  content: "\63";
+}
+.dd-trender:before {
+  content: "\64";
+}
+.dd-up:before {
+  content: "\65";
+}
+.dd-workbench:before {
+  content: "\66";
+}
+.dd-plus:before {
+  content: "\67";
+}
+.dd-arrow-right:before {
+  content: "\68";
+}
+.dd-browse:before {
+  content: "\69";
+}
+.dd-calendar:before {
+  content: "\6a";
+}
+.dd-close:before {
+  content: "\6b";
+}
+.dd-copy:before {
+  content: "\6c";
+}
+.dd-edit:before {
+  content: "\6d";
+}
+.dd-excel:before {
+  content: "\6e";
+}
+.dd-expand:before {
+  content: "\6f";
+}
+.dd-group-7:before {
+  content: "\70";
+}
+.dd-inverter:before {
+  content: "\71";
+}
+.dd-next:before {
+  content: "\72";
+}
+.dd-next1:before {
+  content: "\73";
+}
+.dd-previous:before {
+  content: "\74";
+}
+.dd-previous1:before {
+  content: "\75";
+}
+.dd-pump:before {
+  content: "\76";
+}
+.dd-save:before {
+  content: "\77";
+}
+.dd-search:before {
+  content: "\78";
+}
+.dd-line1:before {
+  content: "\79";
+}
+.dd-line3:before {
+  content: "\7a";
+}
+.dd-line4:before {
+  content: "\41";
+}
+.dd-line5:before {
+  content: "\42";
+}
+.dd-line2:before {
+  content: "\43";
+}
+.dd-circle:before {
+  content: "\44";
+}
+.dd-circle-o:before {
+  content: "\45";
+}
+.dd-triangle:before {
+  content: "\46";
+}
+.dd-rhombus:before {
+  content: "\47";
+}
+.dd-share:before {
+  content: "\48";
+}
+.dd-eye:before {
+  content: "\49";
+}
+.dd-slider:before {
+  content: "\4a";
+}
+.dd-calender:before {
+  content: "\4b";
+}
+.dd-tick:before {
+  content: "\4c";
+}
+.dd-trash:before {
+  content: "\4d";
+}
+.dd-trend:before {
+  content: "\4e";
+}
+.dd-3dots:before {
+  content: "\4f";
+}
+.dd-6dots:before {
+  content: "\50";
+}
+.dd-9dots:before {
+  content: "\51";
+}
+.dd-abt-meter:before {
+  content: "\52";
+}
+.dd-acg:before {
+  content: "\53";
+}
+.dd-arrow-1:before {
+  content: "\54";
+}
+.dd-arrowline:before {
+  content: "\55";
+}
+.dd-artboard-1:before {
+  content: "\56";
+}
+.dd-artboard-1arraybox:before {
+  content: "\57";
+}
+.dd-artboard-1fusebox:before {
+  content: "\58";
+}
+.dd-artboard-14:before {
+  content: "\59";
+}
+.dd-artboard-15:before {
+  content: "\5a";
+}
+.dd-artboard-17:before {
+  content: "\30";
+}
+.dd-artboard-18:before {
+  content: "\31";
+}
+.dd-artboard-19:before {
+  content: "\32";
+}
+.dd-artboard-110:before {
+  content: "\33";
+}
+.dd-artboard-116:before {
+  content: "\34";
+}
+.dd-artboard-117:before {
+  content: "\35";
+}
+.dd-artboard-121:before {
+  content: "\36";
+}
+.dd-artboard-122:before {
+  content: "\37";
+}
+.dd-artboard-123:before {
+  content: "\38";
+}
+.dd-artboard-124:before {
+  content: "\39";
+}
+.dd-artboard-125:before {
+  content: "\21";
+}
+.dd-artboard-126:before {
+  content: "\22";
+}
+.dd-artboard-128:before {
+  content: "\23";
+}
+.dd-artboard-130:before {
+  content: "\24";
+}
+.dd-artboard-131:before {
+  content: "\25";
+}
+.dd-artboard-132:before {
+  content: "\26";
+}
+.dd-artboard-139:before {
+  content: "\27";
+}
+.dd-circuit-breaker:before {
+  content: "\28";
+}
+.dd-connect-earthing:before {
+  content: "\29";
+}
+.dd-dashedarrow:before {
+  content: "\2a";
+}
+.dd-dashedarrowline:before {
+  content: "\2b";
+}
+.dd-dccurrent:before {
+  content: "\2c";
+}
+.dd-dcvoltage:before {
+  content: "\2d";
+}
+.dd-earthing:before {
+  content: "\2e";
+}
+.dd-gdc:before {
+  content: "\2f";
+}
+.dd-ht-panel:before {
+  content: "\3a";
+}
+.dd-inverter-1:before {
+  content: "\3b";
+}
+.dd-location:before {
+  content: "\3c";
+}
+.dd-m:before {
+  content: "\3d";
+}
+.dd-resistance:before {
+  content: "\3e";
+}
+.dd-rmu-breaker:before {
+  content: "\3f";
+}
+.dd-switch:before {
+  content: "\40";
+}
+.dd-transformer:before {
+  content: "\5b";
+}
+.dd-transformer2:before {
+  content: "\5d";
+}
+.dd-variableresistance:before {
+  content: "\5e";
+}
+.dd-wind:before {
+  content: "\5f";
+}
+.dd-wind-1:before {
+  content: "\60";
+}

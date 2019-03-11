@@ -1,0 +1,17 @@
+/* Footer */
+.footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    height:27px;
+    text-align:left !important;
+    position: absolute;
+    font-family: $font-primary;
+    font-size: nth($font-size,12);
+    line-height: 27px;
+    right: 0;
+    color:$font-grey;
+    background-color: $white;
+    left: 0;
+    z-index:1000;
+  }
+  

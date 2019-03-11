@@ -1,0 +1,65 @@
+/* =============
+   Card
+============= */
+
+/* Card Box */
+.card-box{
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  background-color: $white;
+}
+
+
+/* Card */
+.card {
+  border: none;
+  background:transparent;
+  margin-top: 22px;
+  @include screen-laptop{
+    margin-top:12px;
+  }
+  }
+
+.card-title,.card-header {
+  margin-top: 0 !important;
+}
+
+.card-body{
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 2px;
+  background-color: $white;
+}
+
+.card-header {
+  background-color: $bg-body;
+  font-size:nth($font-size,18);
+  font-family: $font-secondary;
+  font-weight: 500;
+  color:$font-clr-primary;
+  padding:0px 0px 9px;
+  border:0px;
+  position: relative;
+  @include screen-laptop{
+    font-size:nth($font-size,14);
+    padding-bottom: 5px;
+  }
+  a{
+    position: absolute;
+    right: 0px;
+    bottom:8px;
+    color:$icon-clr-grey;
+    font-size:nth($font-size,16);
+    &:hover{
+      color:$font-clr-primary;
+      transition: color .4s;
+    }
+    @include screen-laptop{
+      font-size: 13px;
+    } 
+  }
+}
+
+.card-footer {
+  border-top-color: darken($light,5%);
+}

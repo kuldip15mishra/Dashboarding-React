@@ -1,0 +1,162 @@
+/* =============
+   Common
+============= */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  //color: $light7;
+  font-size: $font-size-base;
+  background-color: $bg-body;
+  font-family: $font-primary;
+  overflow: hidden;
+  @include screen-tablet{
+    background: $white;
+  }
+  @include ipad-pro-tablet{
+    background: $white;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  font-family: $font-secondary;
+  margin: 10px 0;
+}
+
+
+h1 {
+  line-height: 43px;
+  font-size: 36px;
+}
+
+h2 {
+  line-height: 35px;
+  font-size: 30px;
+}
+
+h3 {
+  line-height: 30px;
+  font-size: 24px;
+}
+
+h4 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+* {
+  outline: none !important;
+}
+
+a {
+  &:hover {
+    outline: 0;
+    text-decoration: none;
+  }
+  &:active {
+    outline: 0;
+    text-decoration: none;
+  }
+  &:focus {
+    outline: 0;
+    text-decoration: none;
+  }
+}
+
+.container {
+  width: auto;
+}
+
+.container-alt {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+#wrapper {
+  height: $height;
+  overflow: hidden;
+  width: $width;
+}
+
+
+.wrapper {
+  padding-top: 60px;
+  padding-left:85px;
+  display: flex;
+
+  .container-fluid
+  {
+    padding-left: 0px;
+    padding-right: 0px; 
+  }
+
+  .builder-section
+  {
+    border:1px solid grey;
+
+  }
+  // .controls-section
+  // {
+  //   width:400px;
+  //   box-shadow: 0 2px 4px 0 rgba(52, 90, 126, 0.3);
+  //   background: $white;
+  // }
+
+}
+
+
+
+/* Page titles */
+.page-title {
+  font-size: nth($font-size,22);
+  font-family: $font-secondary;
+  color:$font-blue;
+  margin: 0;
+  @include screen-laptop{
+    font-size: nth($font-size,18) !important;
+  }
+}
+
+
+.header-title {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.page-title-box {
+  font-size: nth($font-size,10);
+  color:$font-grey;
+  padding:8px 20px;
+  box-shadow: 0 0 4px 0 rgba(52, 90, 126, 0.3);
+
+  .breadcrumb {
+    margin-bottom: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+}

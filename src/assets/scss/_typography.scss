@@ -1,0 +1,7 @@
+
+// font Sizes - 1px to 30px
+
+$font-size:();
+@for $i from 1 through 30 {
+  $font-size: append($font-size, (($i)*1/16)+rem);
+}

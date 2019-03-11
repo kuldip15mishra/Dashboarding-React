@@ -1,0 +1,94 @@
+.identification-box{
+  .front{
+      padding:29px !important;
+      @include screen-laptop{
+        padding: 20px 10px !important;
+      }
+      .tag-meta {
+          padding-bottom: 20px;
+          @include screen-laptop{
+            padding-bottom: 10px;
+          }
+          .c-grey {
+            color: #a4a4a4;
+            font-size: 16px;
+            @include screen-laptop{
+              font-size: 12px;
+            }
+          }
+          .c-blue {
+            color:$font-blue;
+            font-size: 16px;
+            @include screen-laptop{
+              font-size: 13px;
+            }
+          }
+          &:nth-child(2){
+            height: 90px;
+            @include screen-laptop{
+              height: 40px;
+            }
+          }
+          &:nth-child(1){
+            .c-blue {
+              text-transform: uppercase;
+              font-size: 18px;
+              @include screen-laptop{
+                font-size: 13px;
+              }
+            }
+          }
+        }
+  }
+}
+.tag-current {
+  padding-bottom: 4%;
+  .main-text {
+    font-size: 60px;
+    color:$font-highlight;
+    font-weight: 300;
+    @include screen-laptop{
+      font-size: 35px;
+    }
+    .icon{
+        font-size: 35px;
+        vertical-align: baseline;
+        color:$icon-clr;
+        margin-left: 15px;
+        @include screen-laptop{
+          font-size: 32px;
+        }
+    }
+  }
+  .avg {
+    border-right: 1px solid rgba(39, 44, 54, 0.14);
+    font-size: 28px; 
+    font-weight: 300;
+    color:$font-blue;
+    @include screen-laptop{
+      font-size: 22px;
+    }
+    small{
+      color:$font-grey;
+      font-size: 16px; 
+      @include screen-laptop{
+        font-size: 14px;
+      }
+    }
+  }
+  .delta {
+    font-size: 28px; 
+    font-weight: 300;
+    color:$font-blue;
+    @include screen-laptop{
+      font-size: 22px;
+    }
+    small{
+      color:$font-grey;
+      font-size: 16px; 
+      @include screen-laptop{
+        font-size: 14px;
+      }
+    }
+  }
+}
